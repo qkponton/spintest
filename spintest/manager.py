@@ -3,7 +3,7 @@
 import asyncio
 import itertools
 
-from typing import Callable, Dict, List, Union
+from typing import Callable, Dict, List, Union, Optional
 
 from spintest import logger
 from spintest.task import Task
@@ -19,6 +19,7 @@ class TaskManager(object):
         token: Union[str, Callable[..., str]] = None,
         parallel: bool = False,
         verify: bool = True,
+        callback: Optional[Callable] = None
     ):
         """Initialization of `TaskManager` class."""
         self.urls = urls
@@ -27,6 +28,10 @@ class TaskManager(object):
         self.token = token
         self.verify = verify
         self.parallel = parallel
+        if callback and callable(callback):
+            self.callback = callback
+        else:
+            self.callback = print
 
         if self.parallel:
             self.outputs = [{"__token__": self.token}] * len(self.urls)
@@ -183,18 +188,37 @@ class TaskManager(object):
             return result
 
     async def run(self) -> bool:
+        import pdb
         """Run the whole task queue."""
-        results = []
+        results = { url:[] for url in self.urls}
+        
+        print(self.urls)
         while True:
             try:
-                results.append(await self._next())
+                #results.append(await self._next())
+                #pdb.set_trace()
+                task = await self.next()
+                if isinstance(task, list):
+                    pass
+                elif isinstance(task, dict):
+                    results[task['url']].append(task)
+                else:
+                    raise TypeError(f'Task returned {type(Task)}' 
+                                    ' ,Expected Type: list or dict')
             except StopAsyncIteration:
                 break
+            #if self.callback:
+                #callable(results)
+        self.callback(results)
+
+        all_tasks = []
+        for tasks_list in results.values():
+            all_tasks.extend(tasks_list)
 
         return all(
             [
                 result["status"] == "SUCCESS"
-                for result in list(itertools.chain.from_iterable(results))
+                for result in all_tasks
                 if result["ignore"] is False
             ]
         )
