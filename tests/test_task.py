@@ -17,6 +17,44 @@ class FakeCreatedToken:
         self.i += 1
         return str(self.i)
 
+class PrintFunction:
+    """Function use to create token."""
+    def __call__(self, spintest_result):
+        print(spintest_result)
+
+def test_task_with_callable_func_is__set_configuration():
+    """Test spintest with a strict match on custom body."""
+    httpretty.enable()
+
+    httpretty.register_uri(
+        httpretty.GET,
+        "http://test.com/test",
+        body=json.dumps({"a": "a", "b": "b", "c": "c"}),
+        status=200,
+    )
+
+    print_function = PrintFunction()
+    result = spintest(
+        ["http://test.com"],
+        [
+            {
+                "method": "GET",
+                "route": "/test",
+                "expected": {
+                    "code": 200,
+                    "body": {"a": "a", "b": "b", "c": "c"},
+                    "expected_match": "strict",
+                },
+            }
+        ],
+        callback= print_function
+    )
+
+    assert True is result
+
+    httpretty.disable()
+    httpretty.reset()
+
 
 def test_task_with_fix_token_set_configuration():
     """Test spintest with a strict match on custom body."""
