@@ -188,27 +188,23 @@ class TaskManager(object):
             return result
 
     async def run(self) -> bool:
-        import pdb
         """Run the whole task queue."""
         results = { url:[] for url in self.urls}
-        
-        print(self.urls)
+
         while True:
             try:
-                #results.append(await self._next())
-                #pdb.set_trace()
                 task = await self.next()
                 if isinstance(task, list):
                     pass
                 elif isinstance(task, dict):
+                    if task.get('url') is None:
+                        task['url'] = list(results.keys())[0]
                     results[task['url']].append(task)
                 else:
-                    raise TypeError(f'Task returned {type(Task)}' 
+                    raise TypeError(f'Task returned {type(Task)}'
                                     ' ,Expected Type: list or dict')
             except StopAsyncIteration:
                 break
-            #if self.callback:
-                #callable(results)
         self.callback(results)
 
         all_tasks = []
