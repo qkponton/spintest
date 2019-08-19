@@ -19,7 +19,7 @@ class TaskManager(object):
         token: Union[str, Callable[..., str]] = None,
         parallel: bool = False,
         verify: bool = True,
-        callback: Optional[Callable] = None
+        callback: Optional[Callable] = None,
     ):
         """Initialization of `TaskManager` class."""
         self.urls = urls
@@ -189,7 +189,7 @@ class TaskManager(object):
 
     async def run(self) -> bool:
         """Run the whole task queue."""
-        results = { url:[] for url in self.urls}
+        results = {url: [] for url in self.urls}
 
         while True:
             try:
@@ -197,12 +197,13 @@ class TaskManager(object):
                 if isinstance(task, list):
                     pass
                 elif isinstance(task, dict):
-                    if task.get('url') is None:
-                        task['url'] = list(results.keys())[0]
-                    results[task['url']].append(task)
+                    if task.get("url") is None:
+                        task["url"] = list(results.keys())[0]
+                    results[task["url"]].append(task)
                 else:
-                    raise TypeError(f'Task returned {type(Task)}'
-                                    ' ,Expected Type: list or dict')
+                    raise TypeError(
+                        f"Task returned {type(Task)}" " ,Expected Type: list or dict"
+                    )
             except StopAsyncIteration:
                 break
         self.callback(results)
