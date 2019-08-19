@@ -17,12 +17,28 @@ class FakeCreatedToken:
         self.i += 1
         return str(self.i)
 
+
 class PrintFunction:
     """Function use to create token."""
+
     def __call__(self, spintest_result):
         print(spintest_result)
 
-def test_task_with_callable_func_is__set_configuration():
+
+class RetrievedFunction:
+    """Function use to create token."""
+
+    def __init__(self):
+        self.results = []
+
+    def __call__(self, spintest_result):
+        self.results.append(spintest_result)
+
+    def get(self):
+        return self.results[0]
+
+
+def test_task_with_callable_func_is_set_configuration():
     """Test spintest with a strict match on custom body."""
     httpretty.enable()
 
@@ -47,10 +63,37 @@ def test_task_with_callable_func_is__set_configuration():
                 },
             }
         ],
-        callback= print_function
+        callback=print_function,
     )
 
     assert True is result
+
+    httpretty.disable()
+    httpretty.reset()
+
+
+def test_task_with_callable_func_is_retrieved_results():
+    """Test spintest with a strict match on custom body."""
+    httpretty.enable()
+
+    httpretty.register_uri(httpretty.POST, "http://test.com/test", status=201)
+    httpretty.register_uri(httpretty.GET, "http://test.com/test", status=200)
+    httpretty.register_uri(httpretty.DELETE, "http://test.com/test", status=204)
+
+    result_function = RetrievedFunction()
+    result = spintest(
+        ["http://test.com"],
+        [
+            {"method": "POST", "route": "/test", "expected": {"code": 201}},
+            {"method": "GET", "route": "/test", "expected": {"code": 200}},
+            {"method": "DELETE", "route": "/test", "expected": {"code": 204}},
+        ],
+        callback=result_function,
+    )
+
+    assert True is result
+    results = result_function.get()
+    assert len(results["http://test.com"]) == 3
 
     httpretty.disable()
     httpretty.reset()
