@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T17:58:39.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="urfmsJeEivvuGQNzhA38" version="14.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-19T17:59:58.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="eJjFrZnPObyv2e_LtGos" version="14.1.3" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="868" dy="2184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -214,7 +214,7 @@
           <mxGeometry x="60" y="200" width="10" height="100" as="geometry" />
         </mxCell>
         <mxCell id="XLIUHs42jYj9R6TsnH6_-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-33">
-          <mxGeometry x="60" y="320" width="10" height="170" as="geometry" />
+          <mxGeometry x="60" y="320" width="10" height="230" as="geometry" />
         </mxCell>
         <mxCell id="XLIUHs42jYj9R6TsnH6_-47" value="For each configured&lt;br&gt;UAT compile node" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=140;height=30;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-33">
           <mxGeometry x="-52.91" y="225" width="280" height="125" as="geometry" />
@@ -234,13 +234,14 @@
           <mxGeometry x="390" y="-128" width="280" height="128" as="geometry" />
         </mxCell>
         <mxCell id="XLIUHs42jYj9R6TsnH6_-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-29">
-          <mxGeometry x="119.51724137931035" y="45.94871794871795" width="9.655172413793103" height="26.256410256410255" as="geometry" />
+          <mxGeometry x="119.51724137931035" y="63.94871794871795" width="9.655172413793103" height="26.256410256410255" as="geometry" />
         </mxCell>
         <mxCell id="XLIUHs42jYj9R6TsnH6_-31" value="run r10k command with arg stable" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="XLIUHs42jYj9R6TsnH6_-29" target="XLIUHs42jYj9R6TsnH6_-30">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="130.3448275862069" y="32.820512820512825" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="154.48275862068965" y="32.820512820512825" />
+              <mxPoint x="150" y="33" />
+              <mxPoint x="150" y="64" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -265,12 +266,6 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="117.08999999999997" y="-22" as="sourcePoint" />
             <mxPoint x="411.59000000000003" y="-22" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XLIUHs42jYj9R6TsnH6_-58" value="Deploy on stable (tag_version)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="XLIUHs42jYj9R6TsnH6_-29">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-162.90999999999985" y="75" as="sourcePoint" />
-            <mxPoint x="104.08999999999992" y="75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XLIUHs42jYj9R6TsnH6_-60" value="Manuallly cherry pick release Module_xxx from unstable to staging" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="XLIUHs42jYj9R6TsnH6_-20">
