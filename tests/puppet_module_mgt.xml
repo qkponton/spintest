@@ -1,126 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T17:39:37.855Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="clnE4uvubI1LhwJC_mOY" version="14.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-19T17:58:39.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="urfmsJeEivvuGQNzhA38" version="14.1.3" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="868" dy="2184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7baba1c4bc27f4b0-2" value="sGithub User Repo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="160" y="-1200" width="100" height="280" as="geometry" />
+          <mxGeometry x="170" y="-1650" width="100" height="280" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-2" vertex="1">
           <mxGeometry x="45" y="100" width="10" height="110" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-3" value="OSC api" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="460" y="-1200" width="100" height="270" as="geometry" />
+          <mxGeometry x="470" y="-1650" width="100" height="270" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-3" vertex="1">
           <mxGeometry x="45" y="120" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-4" value="sGithub Puppet_control_repo&lt;br&gt;Unstable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="290" y="-1200" width="150" height="280" as="geometry" />
+          <mxGeometry x="300" y="-1650" width="150" height="280" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-4" vertex="1">
           <mxGeometry x="70" y="105" width="10" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-5" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="560" y="-220" width="100" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-5" vertex="1">
-          <mxGeometry x="44" y="71" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-6" value="OSS Team" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="670" y="-220" width="101" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-6" vertex="1">
-          <mxGeometry x="45.5" y="60" width="10" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-7" value="sGithub Puppet_control_repo&lt;br&gt;Staging" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="788" y="-220" width="130" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="7baba1c4bc27f4b0-7" vertex="1">
-          <mxGeometry x="60" y="80" width="10" height="125" as="geometry" />
-        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-8" value="USer&lt;br&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="20" y="-1200" width="100" height="290" as="geometry" />
+          <mxGeometry x="30" y="-1650" width="100" height="290" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-8" vertex="1">
           <mxGeometry x="45" y="100" width="10" height="180" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-11" value="Merge PR on unstable" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-9" target="7baba1c4bc27f4b0-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="-1090" as="sourcePoint" />
+            <mxPoint x="150" y="-1540" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-14" value="Bump version" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-10" target="7baba1c4bc27f4b0-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="290" y="-1080" as="sourcePoint" />
+            <mxPoint x="300" y="-1530" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-3" value="Upgrade Repo version" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" source="7baba1c4bc27f4b0-3" target="7baba1c4bc27f4b0-2" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="330" y="-1030" as="sourcePoint" />
-            <mxPoint x="390" y="-1030" as="targetPoint" />
+            <mxPoint x="340" y="-1480" as="sourcePoint" />
+            <mxPoint x="400" y="-1480" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="310" y="-1040" />
+              <mxPoint x="320" y="-1490" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-4" value="Update module version&amp;nbsp;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" source="7baba1c4bc27f4b0-3" target="7baba1c4bc27f4b0-4" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="330" y="-1030" as="sourcePoint" />
-            <mxPoint x="390" y="-1030" as="targetPoint" />
+            <mxPoint x="340" y="-1480" as="sourcePoint" />
+            <mxPoint x="400" y="-1480" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="420" y="-1000" />
+              <mxPoint x="430" y="-1450" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="S4VYbYOAXWPhdBFcwXlI-6" value="Request stable release" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="7baba1c4bc27f4b0-19" target="7baba1c4bc27f4b0-6" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="624" y="171" as="sourcePoint" />
-            <mxPoint x="730" y="171" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="S4VYbYOAXWPhdBFcwXlI-10" value="sGithub Puppet_control_repo&lt;br&gt;Stable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="928" y="-220" width="130" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="S4VYbYOAXWPhdBFcwXlI-11" value="OSS Team" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="670" y="-220" width="101" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="S4VYbYOAXWPhdBFcwXlI-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="S4VYbYOAXWPhdBFcwXlI-11" vertex="1">
-          <mxGeometry x="45.5" y="60" width="10" height="260" as="geometry" />
-        </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-29" value="sGithub Puppet_control_repo&lt;br&gt;Stable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="730" y="-810" width="130" height="420" as="geometry" />
+          <mxGeometry x="740" y="-1260" width="130" height="420" as="geometry" />
         </mxCell>
         <mxCell id="XLIUHs42jYj9R6TsnH6_-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="S4VYbYOAXWPhdBFcwXlI-29">
           <mxGeometry x="60" y="295" width="10" height="125" as="geometry" />
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-30" value="sGithub Puppet_control_repo&lt;br&gt;Staging" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="590" y="-810" width="130" height="420" as="geometry" />
+          <mxGeometry x="600" y="-1260" width="130" height="420" as="geometry" />
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="S4VYbYOAXWPhdBFcwXlI-30" vertex="1">
           <mxGeometry x="60" y="80" width="10" height="110" as="geometry" />
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-32" value="OSS Team" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="170" y="-810" width="101" height="410" as="geometry" />
+          <mxGeometry x="180" y="-1260" width="101" height="410" as="geometry" />
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="S4VYbYOAXWPhdBFcwXlI-32" vertex="1">
-          <mxGeometry x="45.5" y="60" width="10" height="120" as="geometry" />
+          <mxGeometry x="45.5" y="60" width="10" height="310" as="geometry" />
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-34" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="52" y="-810" width="100" height="260" as="geometry" />
+          <mxGeometry x="62" y="-1260" width="100" height="260" as="geometry" />
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="S4VYbYOAXWPhdBFcwXlI-34" vertex="1">
           <mxGeometry x="44" y="71" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="S4VYbYOAXWPhdBFcwXlI-36" value="Request stable release" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="S4VYbYOAXWPhdBFcwXlI-35" edge="1">
+        <mxCell id="S4VYbYOAXWPhdBFcwXlI-36" value="Request stable &lt;br&gt;release for&lt;br&gt;Module_xxx" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="S4VYbYOAXWPhdBFcwXlI-35" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="116" y="-419" as="sourcePoint" />
-            <mxPoint x="212" y="-719" as="targetPoint" />
+            <mxPoint x="126" y="-869" as="sourcePoint" />
+            <mxPoint x="222" y="-1169" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-37" value="sGithub Puppet_control_repo&lt;br&gt;Unstable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="290" y="-810" width="130" height="605" as="geometry" />
+          <mxGeometry x="300" y="-1260" width="130" height="530" as="geometry" />
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="S4VYbYOAXWPhdBFcwXlI-37" vertex="1">
           <mxGeometry x="60" y="80" width="10" height="320" as="geometry" />
@@ -141,13 +108,13 @@
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-43" value="create new release" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
           <mxGeometry x="-0.0769" y="10" width="80" relative="1" as="geometry">
-            <mxPoint x="220" y="-690" as="sourcePoint" />
-            <mxPoint x="350" y="-690" as="targetPoint" />
+            <mxPoint x="230" y="-1140" as="sourcePoint" />
+            <mxPoint x="360" y="-1140" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-44" value="Jenkins" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="430" y="-810" width="130" height="520" as="geometry" />
+          <mxGeometry x="440" y="-1260" width="130" height="520" as="geometry" />
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="S4VYbYOAXWPhdBFcwXlI-44" vertex="1">
           <mxGeometry x="60" y="80" width="10" height="220" as="geometry" />
@@ -160,35 +127,35 @@
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-46" value="hook run job" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.194;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="S4VYbYOAXWPhdBFcwXlI-38" target="S4VYbYOAXWPhdBFcwXlI-44" edge="1">
           <mxGeometry x="0.019" y="7" width="80" relative="1" as="geometry">
-            <mxPoint x="500" y="-600" as="sourcePoint" />
-            <mxPoint x="580" y="-600" as="targetPoint" />
+            <mxPoint x="510" y="-1050" as="sourcePoint" />
+            <mxPoint x="590" y="-1050" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="440" y="-670" />
+              <mxPoint x="450" y="-1120" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-47" value="Push unstable to staging" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.3;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.1;exitY=0.341;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="S4VYbYOAXWPhdBFcwXlI-31" edge="1" source="S4VYbYOAXWPhdBFcwXlI-45">
           <mxGeometry x="-0.0113" y="2" width="80" relative="1" as="geometry">
-            <mxPoint x="500" y="-648" as="sourcePoint" />
-            <mxPoint x="580" y="-600" as="targetPoint" />
+            <mxPoint x="510" y="-1098" as="sourcePoint" />
+            <mxPoint x="590" y="-1050" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S4VYbYOAXWPhdBFcwXlI-55" value="Deploy on stable (tag_version)" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+        <mxCell id="S4VYbYOAXWPhdBFcwXlI-55" value="Deploy on stable (tag_version)" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1" source="S4VYbYOAXWPhdBFcwXlI-32">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="360" y="-474" as="sourcePoint" />
-            <mxPoint x="487" y="-474" as="targetPoint" />
+            <mxPoint x="270" y="-924" as="sourcePoint" />
+            <mxPoint x="497" y="-924" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XLIUHs42jYj9R6TsnH6_-2" value="Puth tag_version" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="S4VYbYOAXWPhdBFcwXlI-29">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="500" y="-460" as="sourcePoint" />
-            <mxPoint x="580" y="-460" as="targetPoint" />
+            <mxPoint x="510" y="-910" as="sourcePoint" />
+            <mxPoint x="590" y="-910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XLIUHs42jYj9R6TsnH6_-15" value="For each configured&lt;br&gt;UAT compile node" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=140;height=30;" vertex="1" parent="1">
-          <mxGeometry x="380" y="-610" width="280" height="110" as="geometry" />
+          <mxGeometry x="390" y="-1060" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XLIUHs42jYj9R6TsnH6_-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-15">
           <mxGeometry x="119.51724137931035" y="39.48717948717948" width="9.655172413793103" height="22.564102564102562" as="geometry" />
@@ -199,6 +166,129 @@
             <Array as="points">
               <mxPoint x="154.48275862068965" y="28.205128205128204" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-18" value="sGithub Puppet_control_repo&lt;br&gt;Stable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="740" y="-570" width="130" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-18">
+          <mxGeometry x="60" y="295" width="10" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-20" value="sGithub Puppet_control_repo&lt;br&gt;Staging" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-570" width="130" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-20">
+          <mxGeometry x="60" y="80" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-22" value="OSS Team" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-570" width="101" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-22">
+          <mxGeometry x="45.5" y="60" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-24" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="62" y="-570" width="100" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-24">
+          <mxGeometry x="44" y="71" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-26" value="Request stable&lt;br&gt;release for&lt;br&gt;Module_xxx" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XLIUHs42jYj9R6TsnH6_-25">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="126" y="-179" as="sourcePoint" />
+            <mxPoint x="222" y="-479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-27" value="sGithub Puppet_control_repo&lt;br&gt;Unstable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-570" width="130" height="605" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-27">
+          <mxGeometry x="60" y="80" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-33" value="Jenkins" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-570" width="130" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-33">
+          <mxGeometry x="60" y="80" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-33">
+          <mxGeometry x="60" y="200" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-33">
+          <mxGeometry x="60" y="320" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-47" value="For each configured&lt;br&gt;UAT compile node" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=140;height=30;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-33">
+          <mxGeometry x="-52.91" y="225" width="280" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-47">
+          <mxGeometry x="119.51724137931035" y="44.87179487179487" width="9.655172413793103" height="25.641025641025642" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-49" value="run r10k command with arg staging" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="XLIUHs42jYj9R6TsnH6_-47" target="XLIUHs42jYj9R6TsnH6_-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.3448275862069" y="32.05128205128205" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="154.48275862068965" y="32.05128205128205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-29" value="For each configured&lt;br&gt;PRD compile node" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=140;height=30;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-128" width="280" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-29">
+          <mxGeometry x="119.51724137931035" y="45.94871794871795" width="9.655172413793103" height="26.256410256410255" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-31" value="run r10k command with arg stable" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="XLIUHs42jYj9R6TsnH6_-29" target="XLIUHs42jYj9R6TsnH6_-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.3448275862069" y="32.820512820512825" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="154.48275862068965" y="32.820512820512825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-44" value="create new release tag" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="XLIUHs42jYj9R6TsnH6_-29" target="XLIUHs42jYj9R6TsnH6_-20">
+          <mxGeometry x="-0.0722" y="9" width="80" relative="1" as="geometry">
+            <mxPoint x="-162.91" y="-293" as="sourcePoint" />
+            <mxPoint x="-32.910000000000025" y="-293" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-120" y="-293" />
+              <mxPoint x="-90" y="-293" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-50" value="Deploy on stable (tag_version)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="XLIUHs42jYj9R6TsnH6_-29">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-162.91" y="-36" as="sourcePoint" />
+            <mxPoint x="104.08999999999997" y="-36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-51" value="Puth tag_version" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="XLIUHs42jYj9R6TsnH6_-29">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="117.08999999999997" y="-22" as="sourcePoint" />
+            <mxPoint x="411.59000000000003" y="-22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-58" value="Deploy on stable (tag_version)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="XLIUHs42jYj9R6TsnH6_-29">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-162.90999999999985" y="75" as="sourcePoint" />
+            <mxPoint x="104.08999999999992" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-60" value="Manuallly cherry pick release Module_xxx from unstable to staging" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="XLIUHs42jYj9R6TsnH6_-20">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="230" y="-460" as="sourcePoint" />
+            <mxPoint x="310" y="-460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-61" value="Hook run job" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.1;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="661" y="-393.02" as="sourcePoint" />
+            <mxPoint x="504.5" y="-393.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-62" value="push realease tag" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="XLIUHs42jYj9R6TsnH6_-20">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="510" y="-360" as="sourcePoint" />
+            <mxPoint x="590" y="-360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
