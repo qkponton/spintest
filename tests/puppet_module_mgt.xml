@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T17:35:00.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="ijFawLSwS37FdiYsr4Aj" version="14.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-19T17:38:36.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="y3piiaYTQD0mpK1zyQIM" version="14.1.3" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="868" dy="2184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -99,7 +99,7 @@
           <mxGeometry x="590" y="-810" width="130" height="420" as="geometry" />
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="S4VYbYOAXWPhdBFcwXlI-30" vertex="1">
-          <mxGeometry x="60" y="80" width="10" height="125" as="geometry" />
+          <mxGeometry x="60" y="80" width="10" height="110" as="geometry" />
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-32" value="OSS Team" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="170" y="-810" width="101" height="410" as="geometry" />
@@ -125,25 +125,17 @@
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="S4VYbYOAXWPhdBFcwXlI-37" vertex="1">
           <mxGeometry x="60" y="80" width="10" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="XLIUHs42jYj9R6TsnH6_-7" value="Interaction1 heading" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=140;height=30;" vertex="1" parent="S4VYbYOAXWPhdBFcwXlI-37">
-          <mxGeometry x="80" y="372" width="290" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="XLIUHs42jYj9R6TsnH6_-8" value="[constraint1]" style="text" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-7">
-          <mxGeometry width="100" height="20" relative="1" as="geometry">
-            <mxPoint x="20" y="40" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XLIUHs42jYj9R6TsnH6_-9" value="[constraint2]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-7">
-          <mxGeometry y="150" width="290" height="7.800000000000001" as="geometry" />
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-7" value="For each configured&lt;br&gt;PRD compile node" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=140;height=30;" vertex="1" parent="S4VYbYOAXWPhdBFcwXlI-37">
+          <mxGeometry x="90" y="372" width="280" height="128" as="geometry" />
         </mxCell>
         <mxCell id="XLIUHs42jYj9R6TsnH6_-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-7">
-          <mxGeometry x="130" y="70" width="10" height="40" as="geometry" />
+          <mxGeometry x="119.51724137931035" y="45.94871794871795" width="9.655172413793103" height="26.256410256410255" as="geometry" />
         </mxCell>
         <mxCell id="XLIUHs42jYj9R6TsnH6_-11" value="run r10k command with arg stable" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="XLIUHs42jYj9R6TsnH6_-10" parent="XLIUHs42jYj9R6TsnH6_-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="135" y="50" as="sourcePoint" />
+            <mxPoint x="130.3448275862069" y="32.820512820512825" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="160" y="50" />
+              <mxPoint x="154.48275862068965" y="32.820512820512825" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -163,14 +155,6 @@
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="S4VYbYOAXWPhdBFcwXlI-44" vertex="1">
           <mxGeometry x="60" y="200" width="10" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="S4VYbYOAXWPhdBFcwXlI-49" value="Connect to each&lt;br&gt;configured uat compile&lt;br&gt;node" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="S4VYbYOAXWPhdBFcwXlI-44" target="S4VYbYOAXWPhdBFcwXlI-48" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="180" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="90" y="180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="S4VYbYOAXWPhdBFcwXlI-44" vertex="1">
           <mxGeometry x="60" y="320" width="10" height="170" as="geometry" />
         </mxCell>
@@ -184,23 +168,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S4VYbYOAXWPhdBFcwXlI-47" value="Push unstable to staging" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.3;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="S4VYbYOAXWPhdBFcwXlI-31" edge="1">
+        <mxCell id="S4VYbYOAXWPhdBFcwXlI-47" value="Push unstable to staging" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.3;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.1;exitY=0.341;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="S4VYbYOAXWPhdBFcwXlI-31" edge="1" source="S4VYbYOAXWPhdBFcwXlI-45">
           <mxGeometry x="-0.0113" y="2" width="80" relative="1" as="geometry">
             <mxPoint x="500" y="-648" as="sourcePoint" />
             <mxPoint x="580" y="-600" as="targetPoint" />
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="S4VYbYOAXWPhdBFcwXlI-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="500" y="-564" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="S4VYbYOAXWPhdBFcwXlI-53" value="run r10k command with arg staging" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.9;exitY=0.167;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="S4VYbYOAXWPhdBFcwXlI-48" target="S4VYbYOAXWPhdBFcwXlI-52" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="505" y="-584" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="530" y="-585" />
-              <mxPoint x="530" y="-564" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="S4VYbYOAXWPhdBFcwXlI-55" value="Deploy on stable (tag_version)" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
@@ -213,6 +185,20 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="500" y="-460" as="sourcePoint" />
             <mxPoint x="580" y="-460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-15" value="For each configured&lt;br&gt;UAT compile node" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=140;height=30;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-610" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="XLIUHs42jYj9R6TsnH6_-15">
+          <mxGeometry x="119.51724137931035" y="39.48717948717948" width="9.655172413793103" height="22.564102564102562" as="geometry" />
+        </mxCell>
+        <mxCell id="XLIUHs42jYj9R6TsnH6_-17" value="run r10k command with arg staging" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="XLIUHs42jYj9R6TsnH6_-15" target="XLIUHs42jYj9R6TsnH6_-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.3448275862069" y="28.205128205128204" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="154.48275862068965" y="28.205128205128204" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
